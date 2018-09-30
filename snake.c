@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include<math.h>
 #include <time.h>
+#include <conio.h>
 
 #define max_row 15
 #define max_col 30
@@ -102,7 +103,7 @@ char checkPoision(struct poision *head, int i, int j) {
 
 void move(struct snake **head, char c) {
     
-    snake* temp = *head;
+    struct snake* temp = *head;
     
     int r1, c1, r2, c2;
     
@@ -209,12 +210,10 @@ int main(int argc, const char * argv[]) {
     int direction = 0; // 0 for vertical & 1 for horizontal
     
     char input;
-    scanf("%c",&input);
     
-    while (input != 'q') {
+    while ((input = getch()) != 'q') {
         
         switch (input) {
-                
             case 'w':
             case 'W':
                 if(direction==1) {
@@ -255,11 +254,8 @@ int main(int argc, const char * argv[]) {
                 }
                 break;
         }
-        scanf("%c", &input);
     }
-    
-    
-    
+
     return 0;
 }
 
