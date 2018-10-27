@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  Snake Game
+//  Snake Games
 //
 //  Created by Aryan Agarwal on 24/08/18.
 //  Copyright © 2018 Aryan. All rights reserved.
