@@ -1,16 +1,14 @@
-//
+
 //  main.cpp
 //  Snake Game
-//
 //  Created by Aryan Agarwal on 24/08/18.
 //  Copyright © 2018 Aryan. All rights reserved.
-//
 
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 #include<math.h>
-#include <time.h>
-#include <conio.h>
+#include<time.h>
+#include<conio.h>
 
 #define max_row 15
 #define max_col 30
